@@ -1,12 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Titulo -->
     <title>Final Project html Rodrigo Hernan</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
-</body>
+    <!-- Estilo -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Importación de archivos css -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200;1,200&family=Inconsolata:wdth,wght@62.5,200..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- header con logo y barra de nav -->
+    <header>
+      <a href="#" class="logo">RH</a>
+
+      <input type="checkbox" name="checkbox" id="menu-toggle" />
+      <!-- esto me va a permitir poder hacer click sobre el menu-icon -->
+      <label for="menu-toggle" class="menu-icon-action">
+        <div><i class="bx bx-menu-alt-right" id="menu-icon"></i></div>
+      </label>
+
+      <ul class="navlist">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Sobre mi</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </header>
+
+    <!-- Hero -->
+
+    <section class="hero">
+      <div class="hero-text">
+        <h5>Desarrollador Web</h5>
+        <h2>Rodrigo Hernán</h2>
+        <p>Mostra tu sello en tu página web</p>
+				<div class="button-container">
+
+					<a href="#">Cv</a>
+					<a href="#" class="pages">
+						<i class="ri-window-fill"></i>Mirá las páginas de otros clientes</a
+					>
+				</div>
+      </div>
+
+      <div class="hero-img">
+        <img
+          src="assets/cv.png"
+          alt="Desarrollo-web"
+        />
+      </div>
+    </section>
+  </body>
 </html>
